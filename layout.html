@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="./bootstrap.css">
+  <title>Layout</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    .img {
+      height: 300px;
+      width: 300px;
+    }
+
+    .img-thumbnail {
+      background: none;
+      border: 0px;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 1.5rem;
+      background: black;
+    }
+
+    .Footer {
+      color: white;
+    }
+
+    .row>div {
+      font-size: 2rem;
+    }
+
+    .calc {
+      height: calc(100vh - 88px);
+    }
+
+    @media (max-width: 575px) {
+      .calc {
+        height: calc(100vh - 136px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row text-white">
+      <div class=" col-12 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center">
+        LOGO</div>
+      <ul class=" col-12 col-md-6 nav justify-content-center justify-content-md-end  align-items-center  text-white">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Works</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container calc">
+    <div class="d-flex flex-column  justify-content-center align-items-center h-100 flex-fill">
+      <img class="rounded-circle  img-thumbnail img" src="https://picsum.photos/800/800/?random=9">
+      <div class=" d-flex flex-column justify-content-center align-items-center">
+        <h3>Bootstrap Layout</h3>
+        <p class=" text-left text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla exercitationem
+          error ab
+          corrupti earum iure dolorum ad ratione dicta quas aspernatur sed voluptatum doloremque similique
+          necessitatibus repudiandae accusamus, sit vitae consequatur quasi cupiditate perspiciatis ipsam reiciendis
+          aliquid! Velit, ex animi!</p>
+        <a class="btn btn-light">Learn More</a>
+      </div>
+    </div>
+  </div>
+  <div class="container d-flex justify-content-center ">
+    <div class="Footer ">
+      Design by Lu
+    </div>
+  </div>
+
+
+
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="./popper.min.js"></script>
+  <script src="./bootstrap.min.css"></script>
+</body>
+
+</html>
